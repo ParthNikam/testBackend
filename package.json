@@ -1,4 +1,5 @@
 {
+  "homepage": "https://parthnikam.github.io/testBackend/",
   "name": "server",
   "version": "1.0.0",
   "description": "",
@@ -7,6 +8,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
+     "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
   },
   "keywords": [],
   "author": "",
@@ -16,6 +19,8 @@
     "express": "^4.18.2",
     "mongoose": "^7.5.3",
     "nodemon": "^3.0.1",
-    "serve": "^14.2.1"
+    "serve": "^14.2.1",
+    "gh-pages": "^6.0.0",
+
   }
 }
