@@ -12,8 +12,7 @@ const PORT = 5000;
 //SxMpEzOldVfJh9C0
 // MongoDB Connection
 
-const uri = 'mongodb+srv://morty:BTksgizBcczxKk8p@watermelon.htrvsic.mongodb.net/USERS?retryWrites=true&w=majority';
-// "mongodb://127.0.0.1/USERS"
+const uri = "mongodb://127.0.0.1/USERS";
 mongoose.connect(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
